@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px 0px;
+}
+.title {
+    color: #fff;
+    font-size: 1.6rem;
+}
+.success {
+    margin-top: 40px;
+    font-size: 1.6rem;
+    color: rgb(0, 205, 0);
+}
+.failure {
+    margin-top: 40px;
+    font-size: 1.6rem;
+    color: rgb(233, 34, 3);
+}

@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.doorContainer {
+    text-align: center;
+    font-size: 18px;
+    margin: 0px 40px;
+    margin-top: 40px;
+}
+.doorImage {
+    cursor: pointer;
+    transition: 0.2s all ease;
+    filter: brightness(0.5) sepia(1) hue-rotate(200deg);
+}
+.doorImage:hover {
+    opacity: 0.3;
+}
+.highlight {
+    filter: none;
+}
+.notSelectable, .notSelectable:hover {
+    cursor: not-allowed !important;
+    transition: none !important;
+    opacity: 0.3;
+}
